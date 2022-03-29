@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+}
+article {
+  display: flex;
+}
+body {
+  background-color: beige;
+}
+
+.container {
+  text-align: center;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: beige;
+  display: flex;
+  justify-content: center; /*horizonatlly align to its parent*/
+  height: 3rem;
+  font-size: 1.5rem;
+  align-items: center; /*vertically align to its parent */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+header > h1 {
+  font-weight: 400;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+nav {
+  top: 1rem;
+  width: 22rem;
+  position: relative;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.showcase_img {
+  width: 95vw;
+  margin: 1rem;
+}
+
+k {
+  grid-auto-flow: row;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
